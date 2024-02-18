@@ -17,12 +17,14 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
+/* Base story */
 export const Base: Story = {
   args: {
     variant: "green",
   },
 };
 
+/* Yellow story */
 export const Yellow: Story = {
   args: {
     variant: "yellow",
